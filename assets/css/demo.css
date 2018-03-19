@@ -4,10 +4,6 @@
 	box-sizing: border-box;
 }
 
-html {
-	background: #000;
-}
-
 body {
 	font-family: 'Source Sans Pro', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	min-height: 100vh;

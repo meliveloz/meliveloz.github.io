@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/demo.css">
   <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/pater.css">
@@ -122,90 +123,159 @@
         </div>
       </div>
     </div>
-  </div>
-    
+  </div> 
   <div class="six-section hidden container-fluid">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4 col-lg-4">
-            <div class="box">
-              <div class="imgBox">
-                <img class="img-responsive" src="./assets/readme-images/sunset.png" alt="">
-              </div>
-              <div class="content">
-                <h3>Colors</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
-                <a href="#" class="btn btn-default btnD">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-lg-4">
-            <div class="box">
-              <div class="imgBox">
-                <img class="img-responsive" src="./assets/readme-images/foodies.png" alt="">
-              </div>
-              <div class="content">
-                <h3>Colors</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.!</p>
-                <a href="#" class="btn btn-default btnD">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-lg-4">
-            <div class="box">
-              <div class="imgBox">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-xs-12 padding-top">
+            <div class="card">
+              <div class="image">
                 <img class="img-responsive" src="./assets/readme-images/labcard.png" alt="">
               </div>
-              <div class="content">
-                <h3>Colors</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elriosam!</p>
-                <a href="#" class="btn btn-default btnD">Read More</a>
+              <div class="details">
+                <div class="center">
+                  <h1>Labcard
+                    <br>
+                    <span>Disfruta del viaje ...</span>
+                  </h1>
+                  <p>Aplicación web responsive con Geolocalización</p>
+                  <ul>
+                    <li>
+                      <a href="https://meliveloz.github.io/lab-car-boilerplate" target="_blank">Demo</a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/meliveloz/lab-car-boilerplate" target="_blank">Github</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12 padding-top">
+          <div class="card">
+            <div class="image">
+              <img class="img-responsive" src="./assets/readme-images/cine.png" alt="">
+            </div>
+            <div class="details">
+              <div class="center">
+                <h1>Watch this
+                  <br>
+                  <span>Lo que quieras ver!</span>
+                </h1>
+                <p>Busca las mejores películas en Watch this.</p>
+                <ul>
+                  <li>
+                    <a href="https://meliveloz.github.io/hackathon" target="_blank">Demo</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/meliveloz/hackathon" target="_blank">Github</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <div class="row row-project">
-          <div class="col-sm-4 col-lg-4">
-            <div class="box">
-              <div class="imgBox">
-                <img class="img-responsive" src="./assets/readme-images/cine.png" alt="">
-              </div>
-              <div class="content">
-                <h3>Colors</h3>
-                <p>Lorem ipsum dolor sit amet conso ad sit voluptatem cumque veniam laboriosam!</p>
-                <a href="#" class="btn btn-default btnD">Read More</a>
-              </div>
+        <div class="col-lg-4 col-md-4 col-xs-12 padding-top">
+          <div class="card">
+            <div class="image">
+              <img class="img-responsive" src="./assets/readme-images/foodies.png" alt="">
             </div>
-          </div>
-          <div class="col-sm-4 col-lg-4">
-            <div class="box">
-              <div class="imgBox">
-                <img class="img-responsive" src="./assets/readme-images/trivia.png" alt="">
-              </div>
-              <div class="content">
-                <h3>Colors</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipistatem cumque veniam laboriosam!</p>
-                <a href="#" class="btn btn-default btnD">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-lg-4">
-            <div class="box">
-              <div class="imgBox">
-                <img class="img-responsive" src="./assets/readme-images/labcard.png" alt="">
-              </div>
-              <div class="content">
-                <h3>Colors</h3>
-                <p>Lorem ipsum dolor sit amuptatem cumque veniam laboriosam!</p>
-                <a href="#" class="btn btn-default btnD">Read More</a>
+            <div class="details">
+              <div class="center">
+                <h1>Foodies
+                  <br>
+                  <span>Más cerca de la comida!</span>
+                </h1>
+                <p>Aplicación web en React.js</p>
+                <ul>
+                  <li>
+                    <a href="https://meliveloz.github.io/foodmap-react" target="_blank">Demo</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/meliveloz/foodmap-react" target="_blank">Github</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div> 
-  </div>
+      </div> <!-- ROW END-->
+      <div class="row row-project">
+        <div class="col-lg-4 col-md-4 col-xs-12 padding-top">
+          <div class="card">
+            <div class="image">
+              <img class="img-responsive" src="./assets/readme-images/sunset.png" alt="">
+            </div>
+            <div class="details">
+              <div class="center">
+                <h1>At the right time
+                  <br>
+                  <span>estar en el lugar y momento preciso</span>
+                </h1>
+                <p>Aplicación web que entrega puestas, salidas del sol y fases de la luna a nivel mundial.</p>
+                <ul>
+                  <li>
+                    <a href="https://meliveloz.github.io/foodmap-react" target="_blank">Demo</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/meliveloz/foodmap-react" target="_blank">Github</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12 padding-top">
+          <div class="card">
+            <div class="image">
+              <img class="img-responsive" src="./assets/readme-images/trivia.png" alt="">
+            </div>
+            <div class="details">
+              <div class="center">
+                <h1>Trivia
+                  <br>
+                  <span>Pone a prueba tus conocimientos</span>
+                </h1>
+                <p>Aplicación web que utiliza Open Trivia API</p>
+                <ul>
+                  <li>
+                    <a href="https://meliveloz.github.io/foodmap-react" target="_blank">Demo</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/meliveloz/foodmap-react" target="_blank">Github</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-xs-12 padding-top">
+          <div class="card">
+            <div class="image">
+              <img class="img-responsive" src="./assets/readme-images/labmusic.png" alt="">
+            </div>
+            <div class="details">
+              <div class="center">
+                <h1>Labmusic
+                  <br>
+                  <span>Comparte tus gustos musicales</span>
+                </h1>
+                <p>Red social de Música.</p>
+                <ul>
+                  <li>
+                    <a href="https://meliveloz.github.io/foodmap-react" target="_blank">Demo</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/meliveloz/foodmap-react" target="_blank">Github</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- Row end-->
+    </div><!-- Container End-->
+  </div><!-- Projects End-->
 
   <div class="content content--demo-5">
     <div class="hamburger hamburger--demo-5 js-hover">
@@ -242,6 +312,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
    <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <script type="text/javascript" src="jquery-sequencer.min.js"></script>
   <script src="assets/js/demo.js"></script>

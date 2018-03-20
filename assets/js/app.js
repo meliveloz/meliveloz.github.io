@@ -29,9 +29,7 @@ $('.circle').toggleClass('hidden');
   });
 });
 
-$(window).scroll(function() {
-  $('.myimage').toggleClass('relative', $(window).scrollTop() + $(window).height() > $(document).height() - $('.newdiv').height());
-});
+
 /* $(function(){
   setTimeout(function(){
 $('.fly-in-text').removeClass('hola');

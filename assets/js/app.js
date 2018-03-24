@@ -89,6 +89,7 @@ $('.about-me').on('click', function() {
   $('.second-section').removeClass('hidden');
   $('.six-section').addClass('hidden');
   $('#to-top').addClass('hidden');
+
 });
 $('.myWorks').on('click', function() {
   $('.sectionxs').addClass('hidden');

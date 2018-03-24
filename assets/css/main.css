@@ -242,7 +242,11 @@ html{
 /*SKILLS*/
 .skill-icon{
   font-size: 4em;
+  padding: 0.5em;
   color:black;
+}
+.skill-col{
+  padding: 2em;
 }
 .row-three{
   padding-top: 6em;

@@ -19,7 +19,8 @@
   };
   navdemos.forEach(link => link.addEventListener('click', (ev) => {
     ev.preventDefault();
-    navigate(ev.target);
+	navigate(ev.target);
+	close();
   }));
   document.addEventListener('keydown', (ev) => {
     const keyCode = ev.keyCode || ev.which;

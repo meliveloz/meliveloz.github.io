@@ -74,11 +74,36 @@ class ShapeOverlays {
   }
 }
 
-(function() {
+
+(function () {
   const elmHamburger = document.querySelector('.hamburger');
   const gNavItems = document.querySelectorAll('.global-menu__item');
   const elmOverlay = document.querySelector('.shape-overlays');
   const overlay = new ShapeOverlays(elmOverlay);
+
+  for (x = 0; x < gNavItems.length; x++) {
+    gNavItems[x].addEventListener('click', () => {
+      if (overlay.isAnimating) {
+        return false;
+      }
+      overlay.toggle();
+      if (overlay.isOpened === true) {
+        elmHamburger.classList.add('is-opened-navi');
+        $('.logo').addClass('hidden');
+        $('.logo2').addClass('hidden');
+        for (var i = 0; i < gNavItems.length; i++) {
+          gNavItems[i].classList.add('is-opened');
+        }
+      } else {
+        elmHamburger.classList.remove('is-opened-navi');
+        $('.logo').removeClass('hidden');
+        $('.logo2').removeClass('hidden');
+        for (var i = 0; i < gNavItems.length; i++) {
+          gNavItems[i].classList.remove('is-opened');
+        }
+      }
+    });
+  }
 
   elmHamburger.addEventListener('click', () => {
     if (overlay.isAnimating) {
@@ -87,15 +112,10 @@ class ShapeOverlays {
     overlay.toggle();
     if (overlay.isOpened === true) {
       elmHamburger.classList.add('is-opened-navi');
-       $('.logo').addClass('hidden');
-     $('.logo2').addClass('hidden');
-
       for (var i = 0; i < gNavItems.length; i++) {
         gNavItems[i].classList.add('is-opened');
       }
     } else {
-       $('.logo').removeClass('hidden');
-     $('.logo2').removeClass('hidden');
       elmHamburger.classList.remove('is-opened-navi');
       for (var i = 0; i < gNavItems.length; i++) {
         gNavItems[i].classList.remove('is-opened');

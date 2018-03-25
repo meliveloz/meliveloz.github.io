@@ -260,7 +260,7 @@ html{
   left: 50%;
   margin-left: -30px;
   bottom: 20px;
-  z-index: 10000;
+  z-index: 10;
 }
 
 .arrows path {
@@ -458,4 +458,7 @@ html{
 
 .padding-top{
   margin-top: 3em;
+}
+.content{
+  z-index: 10000;;
 }

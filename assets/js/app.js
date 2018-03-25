@@ -93,7 +93,7 @@ $('.about-me').on('click', function() {
 });
 $('.myWorks').on('click', function() {
   $('.sectionxs').addClass('hidden');
-  // $('html').css("overflow-y", "hidden");
+  $('html').css("overflow-y", "scroll");
   $('.six-section').removeClass('hidden');
   $('.three-section').addClass('hidden');
   $('.first-section').addClass('hidden');

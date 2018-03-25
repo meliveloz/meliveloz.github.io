@@ -132,7 +132,7 @@ $('.skills').on('click', function() {
 $(function() {
   setTimeout(function() {
     $('#splash').fadeOut(500);
-  }, 2000);
+  }, 5000);
 });
 /* Opacity Logo*/ 
 $(window).scroll(function() {

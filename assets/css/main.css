@@ -7,9 +7,11 @@ body{
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+  font-family: 'Roboto', sans-serif;
 }
 html{
   overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
 }
 
 @-webkit-keyframes Gradient {
@@ -142,7 +144,9 @@ html{
     position: fixed;
     right: .2%;
     bottom: .2%;
-    z-index: 799;
+    z-index: 5000;
+    background-color: black;
+    color: white;
 }
 
 .panel {
@@ -227,16 +231,16 @@ html{
 .second-section{
   height: 100vh;
   padding-top:10%;
-  font-family: 'Mina', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .five-section{
   padding-top: 10%;
-  font-family: 'Mina', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .three-section{
   padding-top: 10%;
-  font-family: 'Mina', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*SKILLS*/
@@ -365,6 +369,7 @@ html{
 /*Proyectos overlay*/
 .six-section{
   padding-top: 7%;
+  font-family: 'Roboto', sans-serif;
 }
 .card{
    cursor: pointer;
@@ -460,5 +465,5 @@ html{
   margin-top: 3em;
 }
 .content{
-  z-index: 10000;;
+  z-index: 10000;
 }

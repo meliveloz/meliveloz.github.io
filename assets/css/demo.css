@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: 'Source Sans Pro', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);	
@@ -28,7 +28,7 @@ body {
 	--path-fill-1: #c04444;
 	--path-fill-2: #1b1a19;
 	--color-title: inherit;
-	--font-family-title: 'Playfair Display', serif;
+	--font-family: 'Roboto', sans-serif;
 	--font-size-title: 6vmax;
 	--font-weight-title: 700;
 	--color-menu: #ffffff;
